@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "commonjs",
+    "moduleResolution": "bundler",
+    "esModuleInterop": true,
+    "strict": true,
+    "outDir": "./dist",
+    "rootDir": "./",
+    "skipLibCheck": true
+  },
+  "include": [
+    "tests/**/*.ts",
+    "api/**/*.ts",
+    "fixtures/**/*.ts",
+    "utils/**/*.ts"
+  ]
+}
